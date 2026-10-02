@@ -1,11 +1,12 @@
 {
   "name": "Service Center Kanyakumari",
-  "short_name": "Service Center",
+  "short_name": "Service Center Kanyakumari",
   "description": "Local doorstep home appliance repair and maintenance services in Kanyakumari, Tamil Nadu.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#0b2545",
+  "theme_color": "#0a1e38",
   "icons": [
     {
       "src": "/favicon-192x192.png",
