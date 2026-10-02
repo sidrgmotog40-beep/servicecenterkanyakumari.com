@@ -1,10 +1,10 @@
 const fs = require('fs');
 
 const testFiles = [
-  'service-center/lloyd-service-center-kanyakumari.html',
-  'service-center/hitachi-service-center-kanyakumari.html',
-  'service-center/panasonic-service-center-kanyakumari.html',
-  'service-center/bosch-service-center-kanyakumari.html'
+  'servicecenter/lloyd-service-center-kanyakumari.html',
+  'servicecenter/hitachi-service-center-kanyakumari.html',
+  'servicecenter/panasonic-service-center-kanyakumari.html',
+  'servicecenter/bosch-service-center-kanyakumari.html'
 ];
 
 for (const file of testFiles) {

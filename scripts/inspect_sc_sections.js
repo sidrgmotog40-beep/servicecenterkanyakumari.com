@@ -5,7 +5,7 @@ console.log('Count of SC pages:', files.length);
 
 const summary = [];
 files.forEach(f => {
-  const content = fs.readFileSync('service-center/' + f, 'utf8');
+  const content = fs.readFileSync('servicecenter/' + f, 'utf8');
   const sections = [];
   if (content.includes('id="washingMachineSection"')) sections.push('WM');
   if (content.includes('id="refrigeratorSection"')) sections.push('Fridge');

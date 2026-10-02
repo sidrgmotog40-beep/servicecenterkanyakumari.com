@@ -21,7 +21,7 @@ files.forEach(f => {
 });
 
 if (issues === 0) {
-  console.log(`PASS! All ${files.length} pages in /service-center/ are 100% SIMPLE ENGLISH (zero Tanglish/Tamil words).`);
+  console.log(`PASS! All ${files.length} pages in /servicecenter/ are 100% SIMPLE ENGLISH (zero Tanglish/Tamil words).`);
 } else {
   console.error(`FAILED: ${issues} language violations found.`);
 }

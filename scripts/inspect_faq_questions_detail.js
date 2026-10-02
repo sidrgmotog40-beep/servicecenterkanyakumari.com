@@ -9,7 +9,7 @@ const testFiles = [
   'fridge/acer-refrigerator-repair-service-in-karur.html',
   'tv/sony-tv-repair-service-in-karur.html',
   'tv/samsung-tv-repair-service-in-karur.html',
-  'service-center/samsung-service-center-karur.html'
+  'servicecenter/samsung-service-center-karur.html'
 ];
 
 testFiles.forEach(f => {

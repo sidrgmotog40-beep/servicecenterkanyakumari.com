@@ -95,9 +95,9 @@ function getFileInfo(relPath) {
       brandSlug = base;
       brandName = brandDisplayNames[brandSlug] || brandSlug;
     }
-  } else if (norm.startsWith('service-center/')) {
+  } else if (norm.startsWith('servicecenter/')) {
     category = 'service-center';
-    const base = norm.replace('service-center/', '').replace('-service-center-karur.html', '');
+    const base = norm.replace('servicecenter/', '').replace('-service-center-karur.html', '');
     if (base !== 'home-appliance-service-center-karur.html') {
       brandSlug = base;
       brandName = brandDisplayNames[brandSlug] || brandSlug;

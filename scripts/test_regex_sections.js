@@ -28,5 +28,5 @@ inspectSections('ac/daikin-ac-repair-service-in-kanyakumari.html');
 inspectSections('fridge/godrej-refrigerator-repair-service-in-kanyakumari.html');
 inspectSections('washing-machine/godrej-washing-machine-repair-service-in-kanyakumari.html');
 inspectSections('tv/sony-tv-repair-service-in-kanyakumari.html');
-inspectSections('service-center/lloyd-service-center-kanyakumari.html');
+inspectSections('servicecenter/lloyd-service-center-kanyakumari.html');
 inspectSections('index.html');

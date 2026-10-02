@@ -74,7 +74,7 @@ async function main() {
   console.log('Connected to Edge:', versionData.Browser);
 
   // New tab
-  const newTabRes = await fetch(`http://localhost:${CDP_PORT}/json/new?http://localhost:${PORT}/service-center/home-appliance-service-center-karur.html`, { method: 'PUT' });
+  const newTabRes = await fetch(`http://localhost:${CDP_PORT}/json/new?http://localhost:${PORT}/servicecenter/home-appliance-service-center-karur.html`, { method: 'PUT' });
   const tab = await newTabRes.json();
   const ws = new WebSocket(tab.webSocketDebuggerUrl);
 
@@ -121,9 +121,9 @@ async function main() {
   const testPages = [
     `/index.html`,
     `/sitemap.html`,
-    `/service-center/home-appliance-service-center-karur.html`,
-    `/service-center/samsung-service-center-karur.html`,
-    `/service-center/whirlpool-service-center-karur.html`,
+    `/servicecenter/home-appliance-service-center-karur.html`,
+    `/servicecenter/samsung-service-center-karur.html`,
+    `/servicecenter/whirlpool-service-center-karur.html`,
     `/ac/voltas-ac-repair-service-in-karur.html`,
     `/fridge/samsung-refrigerator-repair-service-in-karur.html`,
     `/washing-machine/ifb-washing-machine-repair-service-in-karur.html`,

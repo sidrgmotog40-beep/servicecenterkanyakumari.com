@@ -21,5 +21,5 @@ checkFile('washing-machine/godrej-washing-machine-repair-service-in-kanyakumari.
 checkFile('washing-machine/bosch-washing-machine-repair-service-in-kanyakumari.html');
 checkFile('tv/sony-tv-repair-service-in-kanyakumari.html');
 checkFile('tv/samsung-tv-repair-service-in-kanyakumari.html');
-checkFile('service-center/lloyd-service-center-kanyakumari.html');
-checkFile('service-center/samsung-service-center-kanyakumari.html');
+checkFile('servicecenter/lloyd-service-center-kanyakumari.html');
+checkFile('servicecenter/samsung-service-center-kanyakumari.html');

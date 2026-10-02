@@ -33,4 +33,4 @@ inspectPage('ac/daikin-ac-repair-service-in-kanyakumari.html');
 inspectPage('fridge/godrej-refrigerator-repair-service-in-kanyakumari.html');
 inspectPage('washing-machine/godrej-washing-machine-repair-service-in-kanyakumari.html');
 inspectPage('tv/sony-tv-repair-service-in-kanyakumari.html');
-inspectPage('service-center/samsung-service-center-kanyakumari.html');
+inspectPage('servicecenter/samsung-service-center-kanyakumari.html');

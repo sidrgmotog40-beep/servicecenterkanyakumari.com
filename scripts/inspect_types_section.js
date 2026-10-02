@@ -5,7 +5,7 @@ const files = [
   'ac/daikin-ac-repair-service-in-karur.html',
   'fridge/whirlpool-refrigerator-repair-service-in-karur.html',
   'tv/sony-tv-repair-service-in-karur.html',
-  'service-center/samsung-service-center-karur.html'
+  'servicecenter/samsung-service-center-karur.html'
 ];
 
 files.forEach(f => {

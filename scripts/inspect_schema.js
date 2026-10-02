@@ -1,5 +1,5 @@
 const fs = require('fs');
-const sample = fs.readFileSync('service-center/lloyd-service-center-kanyakumari.html', 'utf8');
+const sample = fs.readFileSync('servicecenter/lloyd-service-center-kanyakumari.html', 'utf8');
 
 const m = sample.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/i);
 if (m) {

@@ -30,9 +30,9 @@ const viewports = [
 
 const testFiles = [
   'index.html',
-  'service-center/index.html',
-  'service-center/samsung-service-center-karur.html',
-  'service-center/voltas-service-center-karur.html',
+  'servicecenter/index.html',
+  'servicecenter/samsung-service-center-karur.html',
+  'servicecenter/voltas-service-center-karur.html',
   'ac/voltas-ac-repair-service-in-karur.html',
   'sitemap.html'
 ];

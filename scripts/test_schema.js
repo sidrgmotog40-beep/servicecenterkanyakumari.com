@@ -12,4 +12,4 @@ function testSchema(file) {
 }
 
 testSchema('washing-machine/godrej-washing-machine-repair-service-in-kanyakumari.html');
-testSchema('service-center/lloyd-service-center-kanyakumari.html');
+testSchema('servicecenter/lloyd-service-center-kanyakumari.html');

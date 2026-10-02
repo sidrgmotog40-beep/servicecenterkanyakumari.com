@@ -50,7 +50,7 @@ let stats = {
 for (const filePath of allFiles) {
   let content = fs.readFileSync(filePath, 'utf8');
   let relPath = path.relative(rootDir, filePath).replace(/\\/g, '/');
-  let isRenamedMainSc = relPath === 'service-center/home-appliance-service-center-karur.html';
+  let isRenamedMainSc = relPath === 'servicecenter/home-appliance-service-center-karur.html';
   let isSitemapHtml = relPath === 'sitemap.html';
 
   // --- A. Google Analytics Tag ---
@@ -79,22 +79,22 @@ for (const filePath of allFiles) {
   }
 
   // --- C. Update Old Service Center Index References ---
-  // Replace links pointing to /service-center/index.html
-  if (content.includes('/service-center/index.html') || 
-      content.includes('../service-center/index.html') || 
-      content.includes('service-center/index.html')) {
+  // Replace links pointing to /servicecenter/index.html
+  if (content.includes('/servicecenter/index.html') || 
+      content.includes('../servicecenter/index.html') || 
+      content.includes('servicecenter/index.html')) {
     stats.linksUpdated++;
-    content = content.split('href="/service-center/index.html"').join('href="/service-center/home-appliance-service-center-karur.html"');
-    content = content.split('href="../service-center/index.html"').join('href="/service-center/home-appliance-service-center-karur.html"');
-    content = content.split('href="service-center/index.html"').join('href="/service-center/home-appliance-service-center-karur.html"');
-    content = content.split('https://servicecenterkarur.com/service-center/index.html').join('https://servicecenterkarur.com/service-center/home-appliance-service-center-karur.html');
+    content = content.split('href="/servicecenter/index.html"').join('href="/servicecenter/home-appliance-service-center-karur.html"');
+    content = content.split('href="../servicecenter/index.html"').join('href="/servicecenter/home-appliance-service-center-karur.html"');
+    content = content.split('href="servicecenter/index.html"').join('href="/servicecenter/home-appliance-service-center-karur.html"');
+    content = content.split('https://servicecenterkarur.com/servicecenter/index.html').join('https://servicecenterkarur.com/servicecenter/home-appliance-service-center-karur.html');
   }
 
   // Within service-center directory files:
-  if (relPath.startsWith('service-center/')) {
-    // Breadcrumbs or relative nav: href="index.html" -> href="/service-center/home-appliance-service-center-karur.html"
+  if (relPath.startsWith('servicecenter/')) {
+    // Breadcrumbs or relative nav: href="index.html" -> href="/servicecenter/home-appliance-service-center-karur.html"
     // Note: Do NOT match ../index.html (which is Home)
-    content = content.replace(/(?<!\.\.)href="index\.html"/g, 'href="/service-center/home-appliance-service-center-karur.html"');
+    content = content.replace(/(?<!\.\.)href="index\.html"/g, 'href="/servicecenter/home-appliance-service-center-karur.html"');
   }
 
   // --- D. Navigation Menu (Desktop & Mobile) ---
@@ -129,7 +129,7 @@ for (const filePath of allFiles) {
     let fridgeHref = relPath.startsWith('fridge/') ? 'refrigerator-repair-service-in-karur.html' : (relPath.includes('/') ? '../fridge/refrigerator-repair-service-in-karur.html' : 'fridge/refrigerator-repair-service-in-karur.html');
     let wmHref = relPath.startsWith('washing-machine/') ? 'washing-machine-repair-service-in-karur.html' : (relPath.includes('/') ? '../washing-machine/washing-machine-repair-service-in-karur.html' : 'washing-machine/washing-machine-repair-service-in-karur.html');
     let tvHref = relPath.startsWith('tv/') ? 'tv-repair-service-in-karur.html' : (relPath.includes('/') ? '../tv/tv-repair-service-in-karur.html' : 'tv/tv-repair-service-in-karur.html');
-    let scHref = '/service-center/home-appliance-service-center-karur.html';
+    let scHref = '/servicecenter/home-appliance-service-center-karur.html';
     let sitemapHref = '/sitemap.html';
 
     let newNav = `\n        <a href="${homeHref}"${isHomeActive ? ' class="active"' : ''}>Home</a>
@@ -145,15 +145,15 @@ for (const filePath of allFiles) {
   }
 
   // --- E. Footer Updates ---
-  // 1. Footer Service Center link points to /service-center/home-appliance-service-center-karur.html
+  // 1. Footer Service Center link points to /servicecenter/home-appliance-service-center-karur.html
   // 2. Sitemap link added naturally to repair services / footer links if not present
   const footerLinksRegex = /<ul class="footer-links">([\s\S]*?)<\/ul>/;
   const footerLinksMatch = content.match(footerLinksRegex);
   if (footerLinksMatch) {
     let flInner = footerLinksMatch[1];
     // Update any service center index link
-    flInner = flInner.replace(/href="[^"]*service-center\/index\.html"/g, 'href="/service-center/home-appliance-service-center-karur.html"');
-    flInner = flInner.replace(/href="index\.html">All Service Center Brands/g, 'href="/service-center/home-appliance-service-center-karur.html">All Service Center Brands');
+    flInner = flInner.replace(/href="[^"]*service-center\/index\.html"/g, 'href="/servicecenter/home-appliance-service-center-karur.html"');
+    flInner = flInner.replace(/href="index\.html">All Service Center Brands/g, 'href="/servicecenter/home-appliance-service-center-karur.html">All Service Center Brands');
     
     // Check if sitemap link is already present
     if (!flInner.includes('sitemap.html')) {
@@ -167,7 +167,7 @@ for (const filePath of allFiles) {
   if (relPath.startsWith('washing-machine/') && !content.includes('<li><a href="/sitemap.html">Sitemap</a></li>')) {
     content = content.replace(
       /<li><a href="[^"]*microwave">Microwave Oven Repair<\/a><\/li>/,
-      `<li><a href="../index.html#microwave">Microwave Oven Repair</a></li>\n            <li><a href="/service-center/home-appliance-service-center-karur.html">All Service Center Brands</a></li>\n            <li><a href="/sitemap.html">Sitemap</a></li>`
+      `<li><a href="../index.html#microwave">Microwave Oven Repair</a></li>\n            <li><a href="/servicecenter/home-appliance-service-center-karur.html">All Service Center Brands</a></li>\n            <li><a href="/sitemap.html">Sitemap</a></li>`
     );
     stats.footerUpdated++;
   }
@@ -175,20 +175,20 @@ for (const filePath of allFiles) {
   // --- F. Special Updates for Renamed Main Service Center Page ---
   if (isRenamedMainSc) {
     // 1. Canonical tag
-    content = content.replace(/<link rel="canonical" href="[^"]*">/, '<link rel="canonical" href="https://servicecenterkarur.com/service-center/home-appliance-service-center-karur.html">');
+    content = content.replace(/<link rel="canonical" href="[^"]*">/, '<link rel="canonical" href="https://servicecenterkarur.com/servicecenter/home-appliance-service-center-karur.html">');
     // 2. Page Title
     content = content.replace(/<title>[\s\S]*?<\/title>/, '<title>Home Appliance Service Center Karur | Multi-Brand Appliance Repair</title>');
     // 3. Meta Description
     content = content.replace(/<meta name="description" content="[^"]*">/, '<meta name="description" content="Looking for home appliance service in Karur? Multi-brand doorstep service center in Karur for AC, refrigerator, washing machine, TV and home appliances.">');
     // 4. OpenGraph
-    content = content.replace(/<meta property="og:url" content="[^"]*">/, '<meta property="og:url" content="https://servicecenterkarur.com/service-center/home-appliance-service-center-karur.html">');
+    content = content.replace(/<meta property="og:url" content="[^"]*">/, '<meta property="og:url" content="https://servicecenterkarur.com/servicecenter/home-appliance-service-center-karur.html">');
     content = content.replace(/<meta property="og:title" content="[^"]*">/, '<meta property="og:title" content="Home Appliance Service Center Karur | Multi-Brand Appliance Repair">');
     // 5. Schema WebPage URL and ID
-    content = content.replace(/"@id": "[^"]*#webpage"/, '"@id": "https://servicecenterkarur.com/service-center/home-appliance-service-center-karur.html#webpage"');
-    content = content.replace(/"url": "[^"]*service-center\/index\.html"/, '"url": "https://servicecenterkarur.com/service-center/home-appliance-service-center-karur.html"');
+    content = content.replace(/"@id": "[^"]*#webpage"/, '"@id": "https://servicecenterkarur.com/servicecenter/home-appliance-service-center-karur.html#webpage"');
+    content = content.replace(/"url": "[^"]*service-center\/index\.html"/, '"url": "https://servicecenterkarur.com/servicecenter/home-appliance-service-center-karur.html"');
     // 6. Schema Breadcrumbs
-    content = content.replace(/"@id": "[^"]*#breadcrumb"/, '"@id": "https://servicecenterkarur.com/service-center/home-appliance-service-center-karur.html#breadcrumb"');
-    content = content.replace(/"name": "Service Center in Karur",\s*"item": "[^"]*"/, '"name": "Home Appliance Service Center Karur",\n          "item": "https://servicecenterkarur.com/service-center/home-appliance-service-center-karur.html"');
+    content = content.replace(/"@id": "[^"]*#breadcrumb"/, '"@id": "https://servicecenterkarur.com/servicecenter/home-appliance-service-center-karur.html#breadcrumb"');
+    content = content.replace(/"name": "Service Center in Karur",\s*"item": "[^"]*"/, '"name": "Home Appliance Service Center Karur",\n          "item": "https://servicecenterkarur.com/servicecenter/home-appliance-service-center-karur.html"');
     // 7. Visible Breadcrumb
     content = content.replace(/<li aria-current="page">Service Center in Karur<\/li>/, '<li aria-current="page">Home Appliance Service Center Karur</li>');
     // 8. Visible H1
@@ -198,9 +198,9 @@ for (const filePath of allFiles) {
   // --- G. Special Updates for sitemap.html ---
   if (isSitemapHtml) {
     content = content.replace(/<a href="\/service-center\/index\.html"><span>•<\/span> Service Center Directory \(All 54 Brands\)<\/a>/,
-      '<a href="/service-center/home-appliance-service-center-karur.html"><span>•</span> Home Appliance Service Center Karur (All 54 Brands)</a>');
+      '<a href="/servicecenter/home-appliance-service-center-karur.html"><span>•</span> Home Appliance Service Center Karur (All 54 Brands)</a>');
     content = content.replace(/<a href="\/service-center\/index\.html">All Service Center Brands<\/a>/,
-      '<a href="/service-center/home-appliance-service-center-karur.html">All Service Center Brands</a>');
+      '<a href="/servicecenter/home-appliance-service-center-karur.html">All Service Center Brands</a>');
   }
 
   fs.writeFileSync(filePath, content, 'utf8');

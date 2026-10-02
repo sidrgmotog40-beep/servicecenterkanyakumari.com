@@ -9,7 +9,7 @@ function getCustomerFacingPages() {
   const sections = {
     home: [{ title: 'Home - Multi-Brand Appliance Repair in Karur', url: '/', file: 'index.html' }],
     sitemap: [{ title: 'HTML Sitemap', url: '/sitemap.html', file: 'sitemap.html' }],
-    serviceCenterHub: [{ title: 'Home Appliance Service Center Karur', url: '/service-center/home-appliance-service-center-karur.html', file: 'service-center/home-appliance-service-center-karur.html' }],
+    serviceCenterHub: [{ title: 'Home Appliance Service Center Karur', url: '/servicecenter/home-appliance-service-center-karur.html', file: 'servicecenter/home-appliance-service-center-karur.html' }],
     serviceCenterBrands: [],
     ac: [],
     fridge: [],
@@ -21,8 +21,8 @@ function getCustomerFacingPages() {
   brands.forEach(b => {
     sections.serviceCenterBrands.push({
       title: `${b.name} Service Center Karur`,
-      url: `/service-center/${b.slug}-service-center-karur.html`,
-      file: `service-center/${b.slug}-service-center-karur.html`
+      url: `/servicecenter/${b.slug}-service-center-karur.html`,
+      file: `servicecenter/${b.slug}-service-center-karur.html`
     });
   });
 
@@ -121,7 +121,7 @@ console.log(`Generated sitemap.xml with ${allUrls.length} canonical URLs.`);
 const footerBrandDirectoryHtml = `      <div class="footer-brand-directory">
         <h4>Brand Service Centers in Karur</h4>
         <div class="footer-brand-grid">
-          ${brands.map(b => `<a href="/service-center/${b.slug}-service-center-karur.html">${b.name} Service Center Karur</a>`).join('\n          ')}
+          ${brands.map(b => `<a href="/servicecenter/${b.slug}-service-center-karur.html">${b.name} Service Center Karur</a>`).join('\n          ')}
         </div>
       </div>
 `;
@@ -238,7 +238,7 @@ const htmlSitemapContent = `<!DOCTYPE html>
       <!-- Desktop Nav -->
       <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
         <a href="/">Home</a>
-        <a href="/service-center/home-appliance-service-center-karur.html" class="nav-sc-link"><span class="nav-desktop-text">Service Center</span><span class="nav-mobile-text">Home Appliance Service Center</span></a>
+        <a href="/servicecenter/home-appliance-service-center-karur.html" class="nav-sc-link"><span class="nav-desktop-text">Service Center</span><span class="nav-mobile-text">Home Appliance Service Center</span></a>
         <a href="/ac/ac-repair-service-in-karur.html">AC Repair</a>
         <a href="/fridge/refrigerator-repair-service-in-karur.html">Fridge Repair</a>
         <a href="/washing-machine/washing-machine-repair-service-in-karur.html">Washing Machine</a>
@@ -284,7 +284,7 @@ const htmlSitemapContent = `<!DOCTYPE html>
         <h2><span>🏠</span> Home & Overview</h2>
         <div class="sitemap-grid">
           <a href="/"><span>•</span> Home - Multi-Brand Appliance Repair in Karur</a>
-          <a href="/service-center/home-appliance-service-center-karur.html"><span>•</span> Home Appliance Service Center Karur (All 54 Brands)</a>
+          <a href="/servicecenter/home-appliance-service-center-karur.html"><span>•</span> Home Appliance Service Center Karur (All 54 Brands)</a>
           <a href="/sitemap.xml"><span>•</span> XML Sitemap (Search Engine Feed)</a>
         </div>
       </div>
@@ -368,7 +368,7 @@ const htmlSitemapContent = `<!DOCTYPE html>
             <li><a href="/fridge/refrigerator-repair-service-in-karur.html">Refrigerator / Fridge Repair</a></li>
             <li><a href="/washing-machine/washing-machine-repair-service-in-karur.html">Washing Machine Repair</a></li>
             <li><a href="/tv/tv-repair-service-in-karur.html">TV Repair & Service</a></li>
-            <li><a href="/service-center/home-appliance-service-center-karur.html">All Service Center Brands</a></li>
+            <li><a href="/servicecenter/home-appliance-service-center-karur.html">All Service Center Brands</a></li>
             <li><a href="/sitemap.html">Sitemap</a></li>
           </ul>
         </div>

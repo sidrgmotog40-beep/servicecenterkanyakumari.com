@@ -17,5 +17,5 @@ function inspect(filePath) {
 }
 
 inspect('washing-machine/godrej-washing-machine-repair-service-in-kanyakumari.html');
-inspect('service-center/lloyd-service-center-kanyakumari.html');
+inspect('servicecenter/lloyd-service-center-kanyakumari.html');
 inspect('ac/daikin-ac-service-in-kanyakumari.html');

@@ -25,5 +25,5 @@ inspectIntro('ac/daikin-ac-repair-service-in-kanyakumari.html');
 inspectIntro('ac/voltas-ac-repair-service-in-kanyakumari.html');
 inspectIntro('washing-machine/godrej-washing-machine-repair-service-in-kanyakumari.html');
 inspectIntro('washing-machine/lg-washing-machine-repair-service-in-kanyakumari.html');
-inspectIntro('service-center/lloyd-service-center-kanyakumari.html');
-inspectIntro('service-center/samsung-service-center-kanyakumari.html');
+inspectIntro('servicecenter/lloyd-service-center-kanyakumari.html');
+inspectIntro('servicecenter/samsung-service-center-kanyakumari.html');

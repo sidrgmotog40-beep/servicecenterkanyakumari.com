@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const content = fs.readFileSync('service-center/lloyd-service-center-kanyakumari.html', 'utf8');
+const content = fs.readFileSync('servicecenter/lloyd-service-center-kanyakumari.html', 'utf8');
 const lines = content.split('\n');
 
 let targetLine = -1;

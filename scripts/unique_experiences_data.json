@@ -5191,7 +5191,7 @@
       "body": "Our local technician arrived at Thickanamcode to troubleshoot a persistent Xiaomi TV fault. The reported symptom was: \"television stuck on brand logo screen in an endless reboot loop.\" The local technician inspected the appliance on site, where they connected serial UART debug terminal to mainboard service port confirming bootloader loop to identify corrupted bootloader partition from sudden power outage in the eMMC flash memory chip. After explaining the required repair and parts cost, the technician reflashed authentic factory firmware using programmer jig and verified stable NAND partitions. Following a complete operational test run, TV booted into Smart TV home launcher in 15 seconds with all streaming apps operational."
     }
   ],
-  "service-center/acer-service-center-kanyakumari.html": [
+  "servicecenter/acer-service-center-kanyakumari.html": [
     {
       "locName": "Esanthimangalam",
       "badge": "Tanglish",
@@ -5221,7 +5221,7 @@
       "body": "In the neighborhood of Kurumpanai, our service team attended to a Acer Television requiring component repair. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/acerpure-service-center-kanyakumari.html": [
+  "servicecenter/acerpure-service-center-kanyakumari.html": [
     {
       "locName": "Derik Junction",
       "badge": "Tanglish",
@@ -5251,7 +5251,7 @@
       "body": "At a home in Chunkankadai, our technician was called to inspect a Acerpure Air Conditioner that had stopped working properly. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/aiwa-service-center-kanyakumari.html": [
+  "servicecenter/aiwa-service-center-kanyakumari.html": [
     {
       "locName": "Variyoor",
       "badge": "Tanglish",
@@ -5281,7 +5281,7 @@
       "body": "A customer residing close to Puliyoorkurichi booked a doorstep inspection for their Aiwa Television. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/akai-service-center-kanyakumari.html": [
+  "servicecenter/akai-service-center-kanyakumari.html": [
     {
       "locName": "Chetti Kulam",
       "badge": "Tanglish",
@@ -5311,7 +5311,7 @@
       "body": "In the neighborhood of Palukal, our service team attended to a Akai Air Conditioner requiring component repair. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/bajaj-service-center-kanyakumari.html": [
+  "servicecenter/bajaj-service-center-kanyakumari.html": [
     {
       "locName": "Kuzhithurai",
       "badge": "Tanglish",
@@ -5341,7 +5341,7 @@
       "body": "At a home in Pechiparai, our technician was called to inspect a Bajaj Television that had stopped working properly. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/blue-star-service-center-kanyakumari.html": [
+  "servicecenter/blue-star-service-center-kanyakumari.html": [
     {
       "locName": "Erayumanthurai",
       "badge": "Tanglish",
@@ -5371,7 +5371,7 @@
       "body": "A customer residing close to Puthukkadai booked a doorstep inspection for their Blue Star Air Conditioner. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/bosch-service-center-kanyakumari.html": [
+  "servicecenter/bosch-service-center-kanyakumari.html": [
     {
       "locName": "Manavalakurichi",
       "badge": "Tanglish",
@@ -5401,7 +5401,7 @@
       "body": "In the neighborhood of Asaripallam, our service team attended to a Bosch Television requiring component repair. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/bpl-service-center-kanyakumari.html": [
+  "servicecenter/bpl-service-center-kanyakumari.html": [
     {
       "locName": "Valvaithankoshtam",
       "badge": "Tanglish",
@@ -5431,7 +5431,7 @@
       "body": "At a home in Derisanamcope, our technician was called to inspect a BPL Air Conditioner that had stopped working properly. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/carrier-service-center-kanyakumari.html": [
+  "servicecenter/carrier-service-center-kanyakumari.html": [
     {
       "locName": "Methukummal",
       "badge": "Tanglish",
@@ -5461,7 +5461,7 @@
       "body": "A customer residing close to Manalikarai booked a doorstep inspection for their Carrier Television. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/daewoo-service-center-kanyakumari.html": [
+  "servicecenter/daewoo-service-center-kanyakumari.html": [
     {
       "locName": "Attoor",
       "badge": "Tanglish",
@@ -5491,7 +5491,7 @@
       "body": "In the neighborhood of Kalkulam, our service team attended to a Daewoo Air Conditioner requiring component repair. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/daikin-service-center-kanyakumari.html": [
+  "servicecenter/daikin-service-center-kanyakumari.html": [
     {
       "locName": "Velliichanthai",
       "badge": "Tanglish",
@@ -5521,7 +5521,7 @@
       "body": "At a home in Kadiapattanam, our technician was called to inspect a Daikin Television that had stopped working properly. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/electrolux-service-center-kanyakumari.html": [
+  "servicecenter/electrolux-service-center-kanyakumari.html": [
     {
       "locName": "Aralvaimozhi",
       "badge": "Tanglish",
@@ -5551,7 +5551,7 @@
       "body": "A customer residing close to Thadikarankonam North booked a doorstep inspection for their Electrolux Air Conditioner. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/godrej-service-center-kanyakumari.html": [
+  "servicecenter/godrej-service-center-kanyakumari.html": [
     {
       "locName": "Vettoornimadam",
       "badge": "Tanglish",
@@ -5581,7 +5581,7 @@
       "body": "In the neighborhood of Thovalai North, our service team attended to a Godrej Television requiring component repair. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/haier-service-center-kanyakumari.html": [
+  "servicecenter/haier-service-center-kanyakumari.html": [
     {
       "locName": "Balamore",
       "badge": "Tanglish",
@@ -5611,7 +5611,7 @@
       "body": "At a home in WCC Road, our technician was called to inspect a Haier Air Conditioner that had stopped working properly. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/havells-service-center-kanyakumari.html": [
+  "servicecenter/havells-service-center-kanyakumari.html": [
     {
       "locName": "Asambu Hills",
       "badge": "Tanglish",
@@ -5641,7 +5641,7 @@
       "body": "A customer residing close to Suchindram South booked a doorstep inspection for their Havells Television. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/hisense-service-center-kanyakumari.html": [
+  "servicecenter/hisense-service-center-kanyakumari.html": [
     {
       "locName": "Eraniel North",
       "badge": "Tanglish",
@@ -5671,7 +5671,7 @@
       "body": "In the neighborhood of Kovalam South, our service team attended to a Hisense Air Conditioner requiring component repair. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/hitachi-service-center-kanyakumari.html": [
+  "servicecenter/hitachi-service-center-kanyakumari.html": [
     {
       "locName": "Chettikulam North",
       "badge": "Tanglish",
@@ -5701,7 +5701,7 @@
       "body": "At a home in Anjugramam South, our technician was called to inspect a Hitachi Television that had stopped working properly. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/home-appliance-service-center-kanyakumari.html": [
+  "servicecenter/home-appliance-service-center-kanyakumari.html": [
     {
       "locName": "Aralvaimozhi North",
       "badge": "Tanglish",
@@ -5731,7 +5731,7 @@
       "body": "A customer residing close to Pallam booked a doorstep inspection for their Home Appliance Multi-Brand Air Conditioner. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/hyundai-service-center-kanyakumari.html": [
+  "servicecenter/hyundai-service-center-kanyakumari.html": [
     {
       "locName": "Chunkankadai North",
       "badge": "Tanglish",
@@ -5761,7 +5761,7 @@
       "body": "In the neighborhood of Alathankarai, our service team attended to a Hyundai Television requiring component repair. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/ifb-service-center-kanyakumari.html": [
+  "servicecenter/ifb-service-center-kanyakumari.html": [
     {
       "locName": "Collectorate Area Nagercoil",
       "badge": "Tanglish",
@@ -5791,7 +5791,7 @@
       "body": "At a home in Helen Nagar, our technician was called to inspect a IFB Air Conditioner that had stopped working properly. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/iffalcon-service-center-kanyakumari.html": [
+  "servicecenter/iffalcon-service-center-kanyakumari.html": [
     {
       "locName": "Mylaudy South",
       "badge": "Tanglish",
@@ -5821,7 +5821,7 @@
       "body": "A customer residing close to Ozhuginasery booked a doorstep inspection for their Iffalcon Television. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/intex-service-center-kanyakumari.html": [
+  "servicecenter/intex-service-center-kanyakumari.html": [
     {
       "locName": "Kottaram South",
       "badge": "Tanglish",
@@ -5851,7 +5851,7 @@
       "body": "In the neighborhood of Kanyakumari Town, our service team attended to a Intex Air Conditioner requiring component repair. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/kelvinator-service-center-kanyakumari.html": [
+  "servicecenter/kelvinator-service-center-kanyakumari.html": [
     {
       "locName": "Pazhavilai South",
       "badge": "Tanglish",
@@ -5881,7 +5881,7 @@
       "body": "At a home in Kulasekharapuram, our technician was called to inspect a Kelvinator Television that had stopped working properly. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/kenstar-service-center-kanyakumari.html": [
+  "servicecenter/kenstar-service-center-kanyakumari.html": [
     {
       "locName": "Pozhikarai",
       "badge": "Tanglish",
@@ -5911,7 +5911,7 @@
       "body": "A customer residing close to Esanthimangalam booked a doorstep inspection for their Kenstar Air Conditioner. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/kodak-service-center-kanyakumari.html": [
+  "servicecenter/kodak-service-center-kanyakumari.html": [
     {
       "locName": "Enayam Puthenthurai",
       "badge": "Tanglish",
@@ -5941,7 +5941,7 @@
       "body": "In the neighborhood of Derik Junction, our service team attended to a Kodak Television requiring component repair. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/liebherr-service-center-kanyakumari.html": [
+  "servicecenter/liebherr-service-center-kanyakumari.html": [
     {
       "locName": "Vasanth Nagar",
       "badge": "Tanglish",
@@ -5971,7 +5971,7 @@
       "body": "At a home in Variyoor, our technician was called to inspect a Liebherr Air Conditioner that had stopped working properly. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/lloyd-service-center-kanyakumari.html": [
+  "servicecenter/lloyd-service-center-kanyakumari.html": [
     {
       "locName": "Marungoor",
       "badge": "Tanglish",
@@ -6001,7 +6001,7 @@
       "body": "A customer residing close to Chetti Kulam booked a doorstep inspection for their Lloyd Television. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/mi-service-center-kanyakumari.html": [
+  "servicecenter/mi-service-center-kanyakumari.html": [
     {
       "locName": "Vivekanandapuram",
       "badge": "Tanglish",
@@ -6031,7 +6031,7 @@
       "body": "In the neighborhood of Kuzhithurai, our service team attended to a Mi Air Conditioner requiring component repair. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/micromax-service-center-kanyakumari.html": [
+  "servicecenter/micromax-service-center-kanyakumari.html": [
     {
       "locName": "Azhagappapuram",
       "badge": "Tanglish",
@@ -6061,7 +6061,7 @@
       "body": "At a home in Erayumanthurai, our technician was called to inspect a Micromax Television that had stopped working properly. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/midea-service-center-kanyakumari.html": [
+  "servicecenter/midea-service-center-kanyakumari.html": [
     {
       "locName": "Thadikarankonam",
       "badge": "Tanglish",
@@ -6091,7 +6091,7 @@
       "body": "A customer residing close to Manavalakurichi booked a doorstep inspection for their Midea Air Conditioner. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/mitsubishi-service-center-kanyakumari.html": [
+  "servicecenter/mitsubishi-service-center-kanyakumari.html": [
     {
       "locName": "Weavers Colony",
       "badge": "Tanglish",
@@ -6121,7 +6121,7 @@
       "body": "In the neighborhood of Valvaithankoshtam, our service team attended to a Mitsubishi Television requiring component repair. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/motorola-service-center-kanyakumari.html": [
+  "servicecenter/motorola-service-center-kanyakumari.html": [
     {
       "locName": "Siluvaipuram",
       "badge": "Tanglish",
@@ -6151,7 +6151,7 @@
       "body": "At a home in Methukummal, our technician was called to inspect a Motorola Air Conditioner that had stopped working properly. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/o-general-service-center-kanyakumari.html": [
+  "servicecenter/o-general-service-center-kanyakumari.html": [
     {
       "locName": "Meenakshipuram",
       "badge": "Tanglish",
@@ -6181,7 +6181,7 @@
       "body": "A customer residing close to Attoor booked a doorstep inspection for their O'General Television. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/oneplus-service-center-kanyakumari.html": [
+  "servicecenter/oneplus-service-center-kanyakumari.html": [
     {
       "locName": "Killiyoor",
       "badge": "Tanglish",
@@ -6211,7 +6211,7 @@
       "body": "In the neighborhood of Velliichanthai, our service team attended to a Oneplus Air Conditioner requiring component repair. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/onida-service-center-kanyakumari.html": [
+  "servicecenter/onida-service-center-kanyakumari.html": [
     {
       "locName": "Midalam",
       "badge": "Tanglish",
@@ -6241,7 +6241,7 @@
       "body": "At a home in Aralvaimozhi, our technician was called to inspect a Onida Television that had stopped working properly. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/panasonic-service-center-kanyakumari.html": [
+  "servicecenter/panasonic-service-center-kanyakumari.html": [
     {
       "locName": "Villukuri",
       "badge": "Tanglish",
@@ -6271,7 +6271,7 @@
       "body": "A customer residing close to Vettoornimadam booked a doorstep inspection for their Panasonic Air Conditioner. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/philips-service-center-kanyakumari.html": [
+  "servicecenter/philips-service-center-kanyakumari.html": [
     {
       "locName": "Padmanabhapuram",
       "badge": "Tanglish",
@@ -6301,7 +6301,7 @@
       "body": "In the neighborhood of Balamore, our service team attended to a Philips Television requiring component repair. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/redmi-service-center-kanyakumari.html": [
+  "servicecenter/redmi-service-center-kanyakumari.html": [
     {
       "locName": "Melpuram",
       "badge": "Tanglish",
@@ -6331,7 +6331,7 @@
       "body": "At a home in Asambu Hills, our technician was called to inspect a Redmi Air Conditioner that had stopped working properly. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/samsung-service-center-kanyakumari.html": [
+  "servicecenter/samsung-service-center-kanyakumari.html": [
     {
       "locName": "Ponmanai",
       "badge": "Tanglish",
@@ -6361,7 +6361,7 @@
       "body": "A customer residing close to Eraniel North booked a doorstep inspection for their Samsung Television. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/sansui-service-center-kanyakumari.html": [
+  "servicecenter/sansui-service-center-kanyakumari.html": [
     {
       "locName": "Ganapathipuram",
       "badge": "Tanglish",
@@ -6391,7 +6391,7 @@
       "body": "In the neighborhood of Chettikulam North, our service team attended to a Sansui Air Conditioner requiring component repair. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/sanyo-service-center-kanyakumari.html": [
+  "servicecenter/sanyo-service-center-kanyakumari.html": [
     {
       "locName": "Vellamadam",
       "badge": "Tanglish",
@@ -6421,7 +6421,7 @@
       "body": "At a home in Aralvaimozhi North, our technician was called to inspect a Sanyo Television that had stopped working properly. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/sharp-service-center-kanyakumari.html": [
+  "servicecenter/sharp-service-center-kanyakumari.html": [
     {
       "locName": "Kadukkarai",
       "badge": "Tanglish",
@@ -6451,7 +6451,7 @@
       "body": "A customer residing close to Chunkankadai North booked a doorstep inspection for their Sharp Air Conditioner. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/siemens-service-center-kanyakumari.html": [
+  "servicecenter/siemens-service-center-kanyakumari.html": [
     {
       "locName": "Netta",
       "badge": "Tanglish",
@@ -6481,7 +6481,7 @@
       "body": "In the neighborhood of Collectorate Area Nagercoil, our service team attended to a Siemens Television requiring component repair. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/sony-service-center-kanyakumari.html": [
+  "servicecenter/sony-service-center-kanyakumari.html": [
     {
       "locName": "Moolachel",
       "badge": "Tanglish",
@@ -6511,7 +6511,7 @@
       "body": "At a home in Mylaudy South, our technician was called to inspect a Sony Air Conditioner that had stopped working properly. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/tcl-service-center-kanyakumari.html": [
+  "servicecenter/tcl-service-center-kanyakumari.html": [
     {
       "locName": "Muttam North",
       "badge": "Tanglish",
@@ -6541,7 +6541,7 @@
       "body": "A customer residing close to Kottaram South booked a doorstep inspection for their TCL Television. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/thomson-service-center-kanyakumari.html": [
+  "servicecenter/thomson-service-center-kanyakumari.html": [
     {
       "locName": "Erachakulam North",
       "badge": "Tanglish",
@@ -6571,7 +6571,7 @@
       "body": "In the neighborhood of Pazhavilai South, our service team attended to a Thomson Air Conditioner requiring component repair. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/toshiba-service-center-kanyakumari.html": [
+  "servicecenter/toshiba-service-center-kanyakumari.html": [
     {
       "locName": "Chenbagaramanputhur North",
       "badge": "Tanglish",
@@ -6601,7 +6601,7 @@
       "body": "At a home in Pozhikarai, our technician was called to inspect a Toshiba Television that had stopped working properly. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/videocon-service-center-kanyakumari.html": [
+  "servicecenter/videocon-service-center-kanyakumari.html": [
     {
       "locName": "Dindigul-Kanyakumari NH Road",
       "badge": "Tanglish",
@@ -6631,7 +6631,7 @@
       "body": "A customer residing close to Enayam Puthenthurai booked a doorstep inspection for their Videocon Air Conditioner. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/voltas-beko-service-center-kanyakumari.html": [
+  "servicecenter/voltas-beko-service-center-kanyakumari.html": [
     {
       "locName": "Parakkai South",
       "badge": "Tanglish",
@@ -6661,7 +6661,7 @@
       "body": "In the neighborhood of Vasanth Nagar, our service team attended to a Voltas Beko Television requiring component repair. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/voltas-service-center-kanyakumari.html": [
+  "servicecenter/voltas-service-center-kanyakumari.html": [
     {
       "locName": "Kanyakumari South",
       "badge": "Tanglish",
@@ -6691,7 +6691,7 @@
       "body": "At a home in Marungoor, our technician was called to inspect a Voltas Air Conditioner that had stopped working properly. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/vu-service-center-kanyakumari.html": [
+  "servicecenter/vu-service-center-kanyakumari.html": [
     {
       "locName": "Kulasekharapuram South",
       "badge": "Tanglish",
@@ -6721,7 +6721,7 @@
       "body": "A customer residing close to Vivekanandapuram booked a doorstep inspection for their Vu Television. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/vw-service-center-kanyakumari.html": [
+  "servicecenter/vw-service-center-kanyakumari.html": [
     {
       "locName": "Melakrishnanputhur",
       "badge": "Tanglish",
@@ -6751,7 +6751,7 @@
       "body": "In the neighborhood of Azhagappapuram, our service team attended to a VW Air Conditioner requiring component repair. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/whirlpool-service-center-kanyakumari.html": [
+  "servicecenter/whirlpool-service-center-kanyakumari.html": [
     {
       "locName": "Periyavilai",
       "badge": "Tanglish",
@@ -6781,7 +6781,7 @@
       "body": "At a home in Thadikarankonam, our technician was called to inspect a Whirlpool Television that had stopped working properly. \"sound playing clearly from TV but screen remaining pitch black\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, conducted panel reflection check observing faint video behind dark glass, adhunaala LED backlight strips burned LED diodes in series string aagirundhadhai kandupidithaargal. Tested replacement spare panni installed genuine matched LED strip set and calibrated driver voltage mudithadhum, display restored with full vivid brightness and crisp contrast."
     }
   ],
-  "service-center/white-westinghouse-service-center-kanyakumari.html": [
+  "servicecenter/white-westinghouse-service-center-kanyakumari.html": [
     {
       "locName": "Inayam",
       "badge": "Tanglish",
@@ -6811,7 +6811,7 @@
       "body": "A customer residing close to Weavers Colony booked a doorstep inspection for their White Westinghouse Air Conditioner. \"indoor unit leaking water onto wooden furniture and floor\" nu customer ketaanga. Technician spot-ku poi multimeter vechu check pannapo, checked drainage slope and flushed clogged condensate channel, adhunaala condensate drain tray algae sludge blocking drain outlet aagirundhadhai kandupidithaargal. Tested replacement spare panni cleaned drain tray, cleared blockage with nitrogen, and leveled unit mudithadhum, water exited smoothly outside with zero indoor dripping."
     }
   ],
-  "service-center/xiaomi-service-center-kanyakumari.html": [
+  "servicecenter/xiaomi-service-center-kanyakumari.html": [
     {
       "locName": "Kottar",
       "badge": "Tanglish",

@@ -5,7 +5,7 @@ const testFiles = [
   'ac/carrier-ac-repair-service-in-karur.html',
   'fridge/haier-refrigerator-repair-service-in-karur.html',
   'tv/lg-tv-repair-service-in-karur.html',
-  'service-center/bosch-service-center-karur.html'
+  'servicecenter/bosch-service-center-karur.html'
 ];
 
 testFiles.forEach(f => {

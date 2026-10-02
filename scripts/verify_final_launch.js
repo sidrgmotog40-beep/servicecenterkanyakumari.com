@@ -66,27 +66,27 @@ console.log(`3. New Phone Number (9211512088): present in ${newPhoneCount} / ${a
 let oldIndexRefs = 0;
 allHtml.forEach(f => {
   const content = fs.readFileSync(f, 'utf8');
-  if (content.includes('/service-center/index.html') || 
-      content.includes('service-center/index.html') || 
-      content.includes('../service-center/index.html')) {
+  if (content.includes('/servicecenter/index.html') || 
+      content.includes('servicecenter/index.html') || 
+      content.includes('../servicecenter/index.html')) {
     oldIndexRefs++;
-    errors.push(`Old service-center/index.html reference in ${path.relative(rootDir, f)}`);
+    errors.push(`Old servicecenter/index.html reference in ${path.relative(rootDir, f)}`);
   }
 });
 console.log(`4. Old Service Center Index References: ${oldIndexRefs} (Expected: 0)`);
 
-// Also check if service-center/index.html file exists on disk
+// Also check if servicecenter/index.html file exists on disk
 const oldIndexExists = fs.existsSync(path.join(rootDir, 'service-center', 'index.html'));
-console.log(`4b. File service-center/index.html exists on disk: ${oldIndexExists} (Expected: false)`);
-if (oldIndexExists) errors.push('service-center/index.html still exists on disk!');
+console.log(`4b. File servicecenter/index.html exists on disk: ${oldIndexExists} (Expected: false)`);
+if (oldIndexExists) errors.push('servicecenter/index.html still exists on disk!');
 
 // 5. Renamed Main Service Center Page Verification
 const newMainPage = path.join(rootDir, 'service-center', 'home-appliance-service-center-karur.html');
 const newMainExists = fs.existsSync(newMainPage);
-console.log(`5. File service-center/home-appliance-service-center-karur.html exists: ${newMainExists}`);
+console.log(`5. File servicecenter/home-appliance-service-center-karur.html exists: ${newMainExists}`);
 if (newMainExists) {
   const c = fs.readFileSync(newMainPage, 'utf8');
-  const hasCanonical = c.includes('<link rel="canonical" href="https://servicecenterkarur.com/service-center/home-appliance-service-center-karur.html">');
+  const hasCanonical = c.includes('<link rel="canonical" href="https://servicecenterkarur.com/servicecenter/home-appliance-service-center-karur.html">');
   const hasTitle = c.includes('<title>Home Appliance Service Center Karur | Multi-Brand Appliance Repair</title>');
   const hasH1 = c.includes('<h1 class="brand-h1">Home Appliance Service Center in Karur</h1>');
   const hasBreadcrumb = c.includes('<li aria-current="page">Home Appliance Service Center Karur</li>');
@@ -105,7 +105,7 @@ if (newMainExists) {
 let navPassed = 0;
 allHtml.forEach(f => {
   const c = fs.readFileSync(f, 'utf8');
-  const hasScLink = c.includes('/service-center/home-appliance-service-center-karur.html');
+  const hasScLink = c.includes('/servicecenter/home-appliance-service-center-karur.html');
   const hasSitemapLink = c.includes('/sitemap.html');
   const hasDesktopSpan = c.includes('nav-desktop-text');
   const hasMobileSpan = c.includes('nav-mobile-text');

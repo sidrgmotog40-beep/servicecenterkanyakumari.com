@@ -30,7 +30,7 @@ files.forEach(f => {
 });
 
 if (contaminationCount === 0) {
-  console.log(`PASS! All ${files.length} pages in /service-center/ are 100% CLEAN of prohibited cities.`);
+  console.log(`PASS! All ${files.length} pages in /servicecenter/ are 100% CLEAN of prohibited cities.`);
 } else {
   console.error(`FAILED: ${contaminationCount} contaminations found.`);
 }

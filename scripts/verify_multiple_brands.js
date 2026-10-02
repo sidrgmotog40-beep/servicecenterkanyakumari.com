@@ -3,7 +3,7 @@ const fs = require('fs');
 const testBrands = ['bosch', 'samsung', 'ifb', 'haier', 'blue-star', 'voltas', 'bajaj'];
 
 for (const brand of testBrands) {
-  const file = `service-center/${brand}-service-center-kanyakumari.html`;
+  const file = `servicecenter/${brand}-service-center-kanyakumari.html`;
   const content = fs.readFileSync(file, 'utf8');
   
   const h2s = [...content.matchAll(/<h2[^>]*>(.*?)<\/h2>/gi)]

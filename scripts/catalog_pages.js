@@ -50,7 +50,7 @@ fs.readdirSync('tv').filter(f => f.endsWith('.html')).forEach(f => {
 });
 
 fs.readdirSync('service-center').filter(f => f.endsWith('.html')).forEach(f => {
-  catalog.sc.push({ file: 'service-center/' + f, slug: f, brand: formatBrand(f, 'sc') });
+  catalog.sc.push({ file: 'servicecenter/' + f, slug: f, brand: formatBrand(f, 'sc') });
 });
 
 fs.writeFileSync('scripts/pages_catalog.json', JSON.stringify(catalog, null, 2));

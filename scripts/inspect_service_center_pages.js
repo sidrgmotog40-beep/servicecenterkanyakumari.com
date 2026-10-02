@@ -1,10 +1,10 @@
 const fs = require('fs');
 
 const scFiles = [
-  'service-center/samsung-service-center-karur.html',
-  'service-center/whirlpool-service-center-karur.html',
-  'service-center/voltas-service-center-karur.html',
-  'service-center/sony-service-center-karur.html'
+  'servicecenter/samsung-service-center-karur.html',
+  'servicecenter/whirlpool-service-center-karur.html',
+  'servicecenter/voltas-service-center-karur.html',
+  'servicecenter/sony-service-center-karur.html'
 ];
 
 scFiles.forEach(f => {

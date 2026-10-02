@@ -1,4 +1,4 @@
-// Generator for /service-center/index.html
+// Generator for /servicecenter/index.html
 // Project: servicecenterkarur.com
 // Primary Location: Karur, Tamil Nadu, India
 
@@ -38,7 +38,7 @@ function renderLocalitiesGrid() {
   return html;
 }
 
-const canonicalUrl = "https://servicecenterkarur.com/service-center/index.html";
+const canonicalUrl = "https://servicecenterkarur.com/servicecenter/index.html";
 const metaTitle = "Multi-Brand Service Center in Karur | All Home Appliance Repair";
 const metaDesc = "Looking for home appliance service in Karur? Multi-brand doorstep service center in Karur for AC, refrigerator, washing machine, TV and home appliances.";
 
@@ -153,7 +153,7 @@ const footerBrandDirectoryHtml = `
   <div class="footer-brand-directory">
     <h4>Brand Service Centers in Karur</h4>
     <div class="footer-brand-grid">
-      ${brands.map(b => `<a href="/service-center/${b.slug}-service-center-karur.html">${b.name} Service Center Karur</a>`).join('\n      ')}
+      ${brands.map(b => `<a href="/servicecenter/${b.slug}-service-center-karur.html">${b.name} Service Center Karur</a>`).join('\n      ')}
     </div>
   </div>
 `;
@@ -590,4 +590,4 @@ const html = `<!DOCTYPE html>
 `;
 
 fs.writeFileSync(outPath, html, 'utf8');
-console.log('Successfully generated updated /service-center/index.html');
+console.log('Successfully generated updated /servicecenter/index.html');

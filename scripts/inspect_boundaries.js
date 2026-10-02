@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const content = fs.readFileSync('service-center/lloyd-service-center-kanyakumari.html', 'utf8');
+const content = fs.readFileSync('servicecenter/lloyd-service-center-kanyakumari.html', 'utf8');
 
 const appEndRegex = /<!-- Appliances We Service -->[\s\S]*?<\/section>/i;
 const appMatch = content.match(appEndRegex);

@@ -92,7 +92,7 @@ let contaminationHits = [];
 allHtmlFiles.forEach(file => {
   const relPath = path.relative(rootDir, file).replace(/\\/g, '/');
   // Check newly created service-center pages especially
-  if (relPath.startsWith('service-center/')) {
+  if (relPath.startsWith('servicecenter/')) {
     const content = fs.readFileSync(file, 'utf8');
     prohibitedCities.forEach(city => {
       // Use regex with word boundary
@@ -214,7 +214,7 @@ allHtmlFiles.forEach(file => {
     const t = titleMatch[1].trim();
     if (seenTitles.has(t)) {
       // Allow identical title only if it's not a service center page
-      if (relPath.startsWith('service-center/')) {
+      if (relPath.startsWith('servicecenter/')) {
         console.error(`[FAIL] Duplicate title in service-center: "${t}" in ${relPath} and ${seenTitles.get(t)}`);
         auditErrors.push(`Duplicate title: ${t}`);
       }

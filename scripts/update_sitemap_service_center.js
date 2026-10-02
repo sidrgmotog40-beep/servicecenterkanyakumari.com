@@ -35,12 +35,12 @@ function checkFile(relPath, priority) {
 
 // 1. Root & category indexes
 checkFile('index.html', '1.0');
-checkFile('service-center/index.html', '0.9');
+checkFile('servicecenter/index.html', '0.9');
 
 // 2. Service Center brand pages
 const scFiles = fs.readdirSync(path.join(__dirname, '..', 'service-center'))
   .filter(f => f.endsWith('.html') && f !== 'index.html');
-scFiles.forEach(f => checkFile(`service-center/${f}`, '0.85'));
+scFiles.forEach(f => checkFile(`servicecenter/${f}`, '0.85'));
 
 // 3. Existing AC, Fridge, WM, TV pages
 ['ac', 'fridge', 'washing-machine', 'tv'].forEach(dir => {

@@ -79,7 +79,7 @@ function generatePage(b) {
   const exp = experiences[b.slug] || {};
   const faqList = faqs[b.slug] || [];
 
-  const canonicalUrl = `https://servicecenterkarur.com/service-center/${b.slug}-service-center-karur.html`;
+  const canonicalUrl = `https://servicecenterkarur.com/servicecenter/${b.slug}-service-center-karur.html`;
   const metaTitle = `${b.name} Service Center Karur | Home Appliance Repair`;
   const metaDesc = `Looking for ${b.name} service center in Karur? Doorstep repair for ${b.name} ${b.verifiedAppliances.slice(0, 3).join(', ')} across Karur. Fast technician visit and upfront cost estimate.`;
 
@@ -134,7 +134,7 @@ function generatePage(b) {
             "@type": "ListItem",
             "position": 2,
             "name": "Service Center",
-            "item": "https://servicecenterkarur.com/service-center/"
+            "item": "https://servicecenterkarur.com/servicecenter/"
           },
           {
             "@type": "ListItem",

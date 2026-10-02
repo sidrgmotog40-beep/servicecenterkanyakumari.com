@@ -20,7 +20,7 @@ function inspectLoc(file) {
   console.log(file, { pinCards, locCards, areaCards, serviceCards, allCardDivs, callButtons });
 }
 
-inspectLoc('service-center/lloyd-service-center-kanyakumari.html');
+inspectLoc('servicecenter/lloyd-service-center-kanyakumari.html');
 inspectLoc('fridge/godrej-refrigerator-repair-service-in-kanyakumari.html');
 inspectLoc('washing-machine/godrej-washing-machine-repair-service-in-kanyakumari.html');
 inspectLoc('ac/daikin-ac-repair-service-in-kanyakumari.html');

@@ -12,7 +12,7 @@ code = code.split('94420 54321').join('92115 12088');
 code = code.split('9442054321').join('9211512088');
 
 // Replace old service center index references
-code = code.split('/service-center/index.html').join('/service-center/home-appliance-service-center-karur.html');
+code = code.split('/servicecenter/index.html').join('/servicecenter/home-appliance-service-center-karur.html');
 
 // Add Google tag to sitemap.html template if missing
 const GTAG = `<!-- Google tag (gtag.js) -->
@@ -31,8 +31,8 @@ if (!code.includes('G-CXRXPBP63E')) {
 
 // Update nav in sitemap.html template
 code = code.replace(
-  '<a href="/service-center/home-appliance-service-center-karur.html">Service Center</a>',
-  '<a href="/service-center/home-appliance-service-center-karur.html" class="nav-sc-link"><span class="nav-desktop-text">Service Center</span><span class="nav-mobile-text">Home Appliance Service Center</span></a>'
+  '<a href="/servicecenter/home-appliance-service-center-karur.html">Service Center</a>',
+  '<a href="/servicecenter/home-appliance-service-center-karur.html" class="nav-sc-link"><span class="nav-desktop-text">Service Center</span><span class="nav-mobile-text">Home Appliance Service Center</span></a>'
 );
 if (!code.includes('nav-mobile-only active')) {
   code = code.replace(
@@ -43,15 +43,15 @@ if (!code.includes('nav-mobile-only active')) {
 
 // Update sitemap overview link
 code = code.replace(
-  '<a href="/service-center/home-appliance-service-center-karur.html"><span>•</span> Service Center Directory (All 54 Brands)</a>',
-  '<a href="/service-center/home-appliance-service-center-karur.html"><span>•</span> Home Appliance Service Center Karur (All 54 Brands)</a>'
+  '<a href="/servicecenter/home-appliance-service-center-karur.html"><span>•</span> Service Center Directory (All 54 Brands)</a>',
+  '<a href="/servicecenter/home-appliance-service-center-karur.html"><span>•</span> Home Appliance Service Center Karur (All 54 Brands)</a>'
 );
 
 // Add footer sitemap link if missing
 if (!code.includes('<li><a href="/sitemap.html">Sitemap</a></li>')) {
   code = code.replace(
-    '<li><a href="/service-center/home-appliance-service-center-karur.html">All Service Center Brands</a></li>',
-    '<li><a href="/service-center/home-appliance-service-center-karur.html">All Service Center Brands</a></li>\n            <li><a href="/sitemap.html">Sitemap</a></li>'
+    '<li><a href="/servicecenter/home-appliance-service-center-karur.html">All Service Center Brands</a></li>',
+    '<li><a href="/servicecenter/home-appliance-service-center-karur.html">All Service Center Brands</a></li>\n            <li><a href="/sitemap.html">Sitemap</a></li>'
   );
 }
 

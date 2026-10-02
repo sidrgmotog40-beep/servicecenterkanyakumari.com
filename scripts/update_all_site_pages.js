@@ -35,13 +35,13 @@ const faviconHtml = `  <!-- Favicon System -->
 const footerBrandDirectoryHtml = `      <div class="footer-brand-directory">
         <h4>Brand Service Centers in Karur</h4>
         <div class="footer-brand-grid">
-          ${brands.map(b => `<a href="/service-center/${b.slug}-service-center-karur.html">${b.name} Service Center Karur</a>`).join('\n          ')}
+          ${brands.map(b => `<a href="/servicecenter/${b.slug}-service-center-karur.html">${b.name} Service Center Karur</a>`).join('\n          ')}
         </div>
       </div>
 `;
 
 function getCrossLinkCallout(b, relPrefix, variantIndex) {
-  const targetUrl = `${relPrefix}service-center/${b.slug}-service-center-karur.html`;
+  const targetUrl = `${relPrefix}servicecenter/${b.slug}-service-center-karur.html`;
   const variants = [
     `Looking for complete <strong>${b.name} home appliance service</strong> in Karur? Visit the <a href="${targetUrl}" style="font-weight: 700; color: #0284c7; text-decoration: underline;">${b.name} Service Center Karur</a> page for multi-appliance repair information and verified manufacturer support details.`,
     `Need comprehensive repair guidance or multi-product inspection for ${b.name} appliances? Check our dedicated <a href="${targetUrl}" style="font-weight: 700; color: #0284c7; text-decoration: underline;">${b.name} Service Center in Karur</a> directory.`,
@@ -64,7 +64,7 @@ function getCrossLinkCallout(b, relPrefix, variantIndex) {
 }
 
 function getHubCrossLinkCallout(applianceName, relPrefix) {
-  const targetUrl = `${relPrefix}service-center/index.html`;
+  const targetUrl = `${relPrefix}servicecenter/index.html`;
   return `
   <!-- Natural Service Center Hub Cross-Link -->
   <section class="section" style="padding: 1.75rem 0; background: #f0f9ff; border-top: 1px solid #bae6fd; border-bottom: 1px solid #bae6fd;">
@@ -104,8 +104,8 @@ let updatedCount = 0;
 allHtmlFiles.forEach((absPath, index) => {
   const relPath = path.relative(rootDir, absPath).replace(/\\/g, '/');
   
-  // Skip brand pages in /service-center/ since they were already generated with complete metadata
-  if (relPath.startsWith('service-center/') && relPath !== 'service-center/index.html') {
+  // Skip brand pages in /servicecenter/ since they were already generated with complete metadata
+  if (relPath.startsWith('servicecenter/') && relPath !== 'servicecenter/index.html') {
     return;
   }
 
@@ -124,7 +124,7 @@ allHtmlFiles.forEach((absPath, index) => {
   // Check if main-nav exists and doesn't link to service-center
   if (html.includes('<nav class="main-nav"') && !html.includes('service-center')) {
     const relPrefix = relPath.includes('/') ? '../' : '';
-    const scNavLink = `<a href="${relPrefix}service-center/index.html">Service Center</a>`;
+    const scNavLink = `<a href="${relPrefix}servicecenter/index.html">Service Center</a>`;
     // Insert after Home link
     if (html.includes('class="active">Home</a>') || html.includes('>Home</a>')) {
       html = html.replace(/(<a [^>]*>Home<\/a>)/i, `$1\n        ${scNavLink}`);
@@ -135,7 +135,7 @@ allHtmlFiles.forEach((absPath, index) => {
   // 3. Footer Repair Services Link to Service Center
   if (html.includes('<h4>Repair Services</h4>') && !html.includes('All Service Center Brands') && !html.includes('Brand Service Centers')) {
     const relPrefix = relPath.includes('/') ? '../' : '';
-    const footerScLink = `            <li><a href="${relPrefix}service-center/index.html">All Service Center Brands</a></li>\n`;
+    const footerScLink = `            <li><a href="${relPrefix}servicecenter/index.html">All Service Center Brands</a></li>\n`;
     html = html.replace(/(<h4>Repair Services<\/h4>\s*<ul class="footer-links">)/i, `$1\n${footerScLink}`);
     modified = true;
   }
@@ -155,7 +155,7 @@ allHtmlFiles.forEach((absPath, index) => {
   const brandInfo = fileToBrand[relPath];
   if (brandInfo) {
     const b = brandBySlug[brandInfo.slug];
-    const targetUrl = `service-center/${b.slug}-service-center-karur.html`;
+    const targetUrl = `servicecenter/${b.slug}-service-center-karur.html`;
     if (b && !html.includes(targetUrl)) {
       const relPrefix = relPath.includes('/') ? '../' : '';
       const calloutHtml = getCrossLinkCallout(b, relPrefix, index);
@@ -183,7 +183,7 @@ allHtmlFiles.forEach((absPath, index) => {
   ];
 
   hubPages.forEach(hub => {
-    if (relPath === hub.file && !html.includes('service-center/index.html')) {
+    if (relPath === hub.file && !html.includes('servicecenter/index.html')) {
       const relPrefix = '../';
       const hubCallout = getHubCrossLinkCallout(hub.name, relPrefix);
       if (html.includes('<!-- Final CTA Section -->')) {
